@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <h2>Minha lista de tarefas do Dia</h2>
+        <input type="text" id="myInput" placeholder="Titulo...">
+        <span onclick="newElement()" class="addBtn">Adicionar</span>
+      </div>
+      
+      <ul id="myUL">
+        <li>Comprar Ovos</li>
+        <li>Comprar um Livro</li>
+        <li>Organizar o escritório</li>
+      </ul>
+
+      <h3>Lista de tarefas Completas</h3>
+      <ul id="completeList">
+        <li class="checked">Jogar</li>
+      </ul>
+</body>
+</html>
